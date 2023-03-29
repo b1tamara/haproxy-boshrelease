@@ -3,6 +3,8 @@ builds:
     version: 9.4.2
   098f2c5b-6245-4b06-5832-6fac079ecc8f:
     version: 10.0.0
+  0c10cf92-4f6b-4a40-6054-6b7a52ec2b83:
+    version: 11.17.12+2.6.9
   11003551-045a-4825-64e5-ebaa48f5cc2a:
     version: 8.7.0
   1a236603-c926-4c9e-5f05-995d242305fc:
