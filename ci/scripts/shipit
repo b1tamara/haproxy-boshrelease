@@ -81,8 +81,8 @@ PCRE_VERSION=$(version PCRE_VERSION)
 KEEPALIVED_VERSION=$(version KEEPALIVED_VERSION keepalived)
 
 header "Create final release..."
-bosh -n create-release --final --version "${VERSION}"
-bosh -n create-release "releases/${RELEASE_NAME}/${RELEASE_NAME}-${VERSION}.yml" \
+bosh -n create-release --final --version "${VERSION}+${HAPROXY_VERSION}"
+bosh -n create-release "releases/${RELEASE_NAME}/${RELEASE_NAME}-${VERSION}+${HAPROXY_VERSION}.yml" \
               --tarball "releases/${RELEASE_NAME}/${RELEASE_NAME}-${VERSION}+${HAPROXY_VERSION}.tgz"
 cd -
 

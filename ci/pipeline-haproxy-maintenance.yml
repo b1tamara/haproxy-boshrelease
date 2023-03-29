@@ -207,7 +207,7 @@ jobs:
             - { name: stemcell-bionic }
             - { name: bpm }
           run:
-            path: ./git-pull-requests/ci/scripts/acceptance-tests
+            path: ./git-pull-requests-previous-release/ci/scripts/acceptance-tests
             args: []
           params:
             REPO_ROOT:            git-pull-requests-previous-release
