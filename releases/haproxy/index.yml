@@ -85,6 +85,8 @@ builds:
     version: 10.4.0
   8240ec82-50b2-4db8-5291-8c8c5afe50aa:
     version: 8.6.0
+  88098501-189c-4fd9-5b77-1e7d12fd7e76:
+    version: 11.16.5+2.6.9
   89584dd7-3539-4fd3-6aa3-47ad9ef5127e:
     version: 8.4.2
   8cf54349-2966-4de5-6586-616b3e081cbc:
