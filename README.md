@@ -12,7 +12,7 @@ timeouts, for greater resiliency under heavy load.
 Usage
 -----
 
-To deploy this BOSH release:
+To deploy this BOSH release
 
 ```
 git clone https://github.com/cloudfoundry-community/haproxy-boshrelease.git
